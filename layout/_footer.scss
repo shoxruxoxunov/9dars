@@ -1,0 +1,60 @@
+.footer {
+}
+.footer-container {
+  margin-top: 14rem;
+  display: flex;
+  gap: 3rem;
+}
+.container {
+}
+.footer__card:hover {
+  opacity: 0.8;
+  transition: 1s;
+}
+.footer__h3 {
+  width: 25.5rem;
+  padding-top: 4.8rem;
+  padding-bottom: 2.4rem;
+  color: #162542;
+  font-family: "Barlow";
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.166;
+  text-transform: uppercase;
+}
+.footer__p {
+  width: 25.5rem;
+  padding-bottom: 12.8rem;
+  color: #7b8bad;
+  font-family: " Barlow";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.62;
+}
+.footer__footerend {
+  position: relative;
+}
+.footer__text2 {
+  position: absolute;
+  text-align: center;
+
+  left: -75rem;
+  bottom: 0;
+  color: #7b8bad;
+  font-family: "Barlow";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.62;
+  padding-bottom: 4rem;
+}
+.footer__text2 span {
+  color: #7b8bad;
+  font-family: Barlow;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.62;
+}

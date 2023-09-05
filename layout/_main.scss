@@ -1,0 +1,103 @@
+main {
+  flex-grow: 1;
+}
+
+// ------hero-start-----------------------------
+
+.hero__container {
+  display: flex;
+}
+
+.hero__title {
+  width: 55rem;
+  font-family: "Barlow";
+  font-size: 5.06rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  padding-top: 15rem;
+  padding-bottom: 2.04rem;
+}
+.hero__text {
+  color: #7b8bad;
+  font-family: "Barlow";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.444;
+  width: 45rem;
+  padding-bottom: 4rem;
+}
+
+.hero__a {
+  margin-right: 4rem;
+}
+.hero__alink {
+  color: #7b8bad;
+  font-family: "Barlow";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.62;
+  text-transform: uppercase;
+}
+.hero__alink:hover {
+  color: aquamarine;
+}
+
+.hero__img {
+  padding-top: 8rem;
+  border-radius: 20px;
+}
+.hero__imgright {
+  content: "";
+  background-color: #eff1f4;
+  width: 200px;
+  height: 240px;
+  flex-shrink: 0;
+  border-radius: 2rem;
+  margin-left: 4rem;
+  margin-top: 8rem;
+}
+
+// -------hero-end------------------------------
+
+// -----------------info-start------------------
+
+.info__container {
+  margin-top: 5rem;
+}
+
+.info__imf1 {
+  display: flex;
+  gap: 2.5rem;
+}
+.info__information {
+  margin-left: 11rem;
+}
+.info__h2 {
+  width: 25.05rem;
+  padding-bottom: 2.7rem;
+  padding-top: 9rem;
+}
+.info__text {
+  color: #7b8bad;
+  font-family: "Barlow";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625;
+  width: 25.05rem;
+}
+.hero__imgright1 {
+  content: "";
+  background-color: #eff1f4;
+  width: 200px;
+  height: 240px;
+  flex-shrink: 0;
+  border-radius: 2rem;
+  margin-left: -25rem;
+  margin-top: -24rem;
+}
+// -----------------info-end--------------------
